@@ -16,11 +16,10 @@
   }
   </style>
 </head>
-<body>
+<body style="background-color:#b3ffd9">
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>My First Bootstrap 4 Page</h1>
-  <p><strong>Step 1: Change the background color of this jumbotron</strong></p>
+<div class="jumbotron text-center" style="margin-bottom:0; background-color:#1affff;">
+  <h1 style="color:white;">Indigo Emanuel</h1>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -31,13 +30,13 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">About ME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Favorite Class</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Least Favorite Class</a>
       </li>
     </ul>
   </div>
@@ -48,22 +47,22 @@
     <div class="col-sm-4">
       <h2>About Me</h2>
       <h5>Photo of me:</h5>
-      <div class="fakeimg">Replace with a personal photo</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+     <div class="thumbnial"> <img src="indigoCruise.jpg" class="rounded-circle" width="150px" height="150px"/></div>
+      <p>I'm cool. Ur not. Sorry not Sorry</p>
       <h3>My Favorite Sites</h3>
       <p>Here are a few of my favorite sites.</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="https://www.w3schools.com/bootstrap/">W3schools</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://www.poptropica.com/">Poptropica</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://www.youtube.com/">Youtube</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link disabled" href="https://www.crunchyroll.com/videos/anime">CrunchyRoll</a>
         </li>
       </ul>
       <hr class="d-sm-none">
@@ -71,20 +70,20 @@
     <div class="col-sm-8">
       <h2>Most Favorite Class</h2>
 
-      <div class="fakeimg">Replace with your favorite class picture</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <div class="thumbnial"> <img src="codingClass.jpg" class="" width="300px" height="200px" /> </div>
+      <p>Coding Class</p>
+      <p>I luv itt bc it is fun. yes</p>
       <br>
       <h2>Least Favorite Class</h2>
-      <div class="fakeimg">Replace with your least favorite class picture</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <div class="thumbnial"> <img src="english.jpg" class="" width="300px" height="200px" /> </div>
+      <p>English class</p>
+      <p>Ion like it bc it borin</p>
     </div>
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p><strong>Change the background color of this footer<//p>
+<div class="jumbotron text-center" style="margin-bottom:0; background-color:#b3c6ff" >
+  <p><strong>You made it to the bottom! </p>
 </div>
 
 </body>
